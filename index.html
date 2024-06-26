@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculador Leilão.</title>
+</head>
+<body>
+    <h1>Calculador de Leilão</h1>
+
+    
+
+        <form action="">
+            <div id="foto">
+            
+            </div>
+            <section>
+                <p>
+                    1. O veículo é do Banco Santander?
+                
+                </p>
+                <p>
+                    <input type="radio" name="rbanco" id="rsim">
+                    <label for="rsim">SIM</label>
+                    <input type="radio" name="rbanco" id="rnao">
+                    <label for="rnao">NÃO</label>
+                </p>
+
+                <p>
+                    <label for="txtvalor">2. Valor do Lance Atual:</label> <input type="number" name="txtvalor" id="txtvalor">
+                </p>
+
+                <p id="botao">
+                    <input type="button" value="Calcular" onclick="calcular()">
+                </p>
+
+                <div id="res">
+                    Preencha os dados acima para ver o Resultado!!
+                </div>
+            </section>
+        </form>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
