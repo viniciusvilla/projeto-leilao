@@ -16,6 +16,17 @@ h1{
     text-shadow: 1px 1px 1px black;
 }
 
+article>h1{
+    color: red;
+    text-shadow: none;
+    margin-bottom: 0px;
+}
+
+article>p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 form{
     margin: auto;
     background-color: white;
