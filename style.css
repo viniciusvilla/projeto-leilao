@@ -57,7 +57,7 @@ p{
 }
 
 p#botao{
-    margin-top: 50px;
+    
     text-align: center;
 }
 
@@ -69,6 +69,6 @@ p#botao > input{
 }
 
 div{
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
